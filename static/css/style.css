@@ -117,6 +117,7 @@ body {
 }
 .posts li .name_body {
   flex-basis: 85%;
+  height: fit-content;
 }
 
 .posts li .name_body .name {
@@ -135,6 +136,7 @@ body {
 .image2 {
   width: 70%;
   margin-left: 80px;
+  height: 45%;
 }
 
 .cancel {
@@ -159,4 +161,8 @@ body {
   .posts li .name_body .name {
     font-size: 20px;
   }
+}
+.image-post {
+  width: 90%;
+  height: 40vh;
 }
