@@ -5,7 +5,6 @@
       <img src="{% static 'img/techis-logo.png' %}" />
       <h1>Edit</h1>
     </div>
-   
   </section>
 
   <section class="content">
@@ -23,8 +22,13 @@
         <textarea name="body" placeholder="Whats happening?" required>
 {{ post.body}}</textarea
         >
-        <img src="{{post.image.url}}" alt="" class="image2"><br><br>
-        <input type="file" name="image" class="file" value="{{post.image.url}}">
+        <img src="{{post.image.url}}" alt="" class="image2" /><br /><br />
+        <input
+          type="file"
+          name="image"
+          class="file"
+          value="{{post.image.url}}"
+        />
         <button href="/" class="cancel" type="submit">Cancel</button>
         <button class="update" type="submit">Update</button>
       </form>
@@ -36,6 +40,5 @@
     ></script>
     <script src="{% static 'js/posts.js/' %}"></script>
   </section>
-
-  {% endblock %}
 </section>
+{% endblock %}
