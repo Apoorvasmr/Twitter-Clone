@@ -31,11 +31,10 @@
       {% for post in posts %}
       <li>
         <img
-          <!--
           class="menu_icon js-menu-icon"
           src="{% static 'img/option.png' %}"
         />
-        -->
+
         <div class="menu">
           <a href="/edit/{{post.id}}/">Edit</a><br />
           <a href="/delete/{{post.id}}/">Delete</a>
