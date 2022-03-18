@@ -4,6 +4,7 @@ Check Out [LIVE DEMO HERE...!!!](https://twitter-clone-apporva.herokuapp.com/)
 
 # Screenshot:
  <img width="643" alt="Screenshot 2022-03-18 at 11 31 48 AM" src="https://user-images.githubusercontent.com/99715304/158948562-70ca9884-d9f9-494f-b1fc-28078f8c107f.png">
+
 # Tech Used:
 * HTML
 * CSS 
