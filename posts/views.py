@@ -25,8 +25,7 @@ def index(request):
     posts = Post.objects.all().order_by('-created_at')[:20]
 
     # show
-    return render(request, 'posts.html',
-                  {'posts': posts, 'form': form})
+    return render(request, 'posts.html',{'posts': posts, })
 
 
 def delete(request, post_id):
@@ -45,7 +44,7 @@ def edit(request, post_id):
         else:
             return HttpResponseRedirect(form.errors.as_json())
     form = PostForm
-    return render(request, 'edit.html', {'post': post, 'form': form})
+    return render(request, 'edit.html', {'post': post})
 
 
 def likes(request, id):
