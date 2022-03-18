@@ -8,10 +8,10 @@
     </div>
   </section>
   <section class="post_form">
-    <form action="" method="POST" enctype="multipart/form-data">
+    <form action="/" method="POST" enctype="multipart/form-data">
       {% csrf_token %}
       <div class="logo">
-        <img src="{% static 'img/user.png' %}" />
+        <img src="{% static 'img/user1.png' %}" />
       </div>
       <input
         class="name"
@@ -38,7 +38,7 @@
           <a href="/delete/{{post.id}}/">Delete</a>
         </div>
         <div class="logo">
-          <img src="{% static 'img/user.png' %}" />
+          <img src="{% static 'img/user1.png' %}" />
         </div>
         <div class="name_body">
           <div class="name">{{ post.name}}</div>
